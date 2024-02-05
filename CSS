@@ -1,0 +1,96 @@
+
+body{
+  background:#F7F6FB;
+}
+
+.container{
+  width: 700px;
+  background: white;
+  padding: 20px 30px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+}
+
+#city {
+  width: 500px;
+  font-size: 14px;
+  background: #F7F6FB;
+  border: none;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: 'Cute Font', sans-serif;
+  font-family: 'Protest Riot', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+
+}
+#submitButton{
+  background: #865CEF;
+  color: white;
+  border: 1px solid #E3F3FD;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 15px 20px;
+  
+  
+}
+
+h1{
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 40px;
+}
+
+p{
+  font-family: 'Cute Font', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:#CDCDCD;
+    line-height: 25px;
+}
+
+.Humidity{
+  color:#865CEF;
+  font-family: 'Protest Riot', sans-serif;
+  
+}
+.Wind{
+  color: #865CEF;
+  font-family: 'Protest Riot', sans-serif;
+  
+}
+
+.temperatureContainer{
+  display: flex;
+  justify-content: right;
+}
+
+.temperatureContainer .temperature{
+  position: relative;
+  font-size: 72px;
+  font-family: 'Protest Riot', sans-serif;
+  top: -80px;
+
+}
+
+.temperatureContainer .icon{
+  position: relative;
+  right: 140px;
+  font-size: 50px;
+  top: -60px;
+}
+
+.temperatureContainer .unit{
+  position: relative;
+  top: -70px;
+  right: 40px;
+  font-size: 20px;
+}
+
+footer{
+  font-family: 'Cute Font', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
